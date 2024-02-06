@@ -12,6 +12,7 @@ a {
 
 body {
     font-family: Inter;
+    color: #FFF;
 }
 
 button {
@@ -32,10 +33,10 @@ button {
 }
 
 .header-item {
-    color: #FFF;
     font-size: 24px;
     font-weight: 200;
     margin-right: 20px;
+    color: white;
 }
 
 .background {
@@ -45,7 +46,6 @@ button {
 }
 
 .traditional-title {
-    color: #FFF;
     font-size: 70px;
     font-weight: 200;
     width: 561px;
@@ -54,7 +54,6 @@ button {
 }
 
 .traditional-text {
-    color: #FFF;
     font-size: 21px;
     font-weight: 300;
     width: 570.253px;
@@ -68,16 +67,17 @@ button {
     border-radius: 17px;
     background: #B47B48;
     margin-top: 33px;
+    margin-bottom: 125px;
 }
 
 .traditional-button-text {
     width: 139px;
     height: 34px;
     flex-shrink: 0;
-    color: #FFF;
     font-size: 24px;
     font-weight: 300;
     text-align: center;
+    color: #FFF;
 }
 
 .traditional-list {
@@ -90,10 +90,12 @@ button {
     height: 225px;
     flex-shrink: 0;
     background: #272727;
+    margin-right: 104px;
+    display: flex;
+    margin-bottom: 36px;
 }
 
 .traditional-item-img {
-    width: 162px;
     height: 225px;
     flex-shrink: 0;
     background-image: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0.00) 80.32%);
@@ -101,27 +103,45 @@ button {
 }
 
 .img-cookie {
-    background-image: url(img/americancookies.jpg);
+    background-image: url(img/americancookies.png);
+    width: 162px;
 }
 
 .img-croisan {
-    background-image: url(img/croisan.jpg);
+    background-image: url(img/croisan.png);
+    width: 215px;
 }
 
 .img-pie {
-    background-image: url(img/pie.jpg);
+    background-image: url(img/pie.png);
+    width: 200px;
+    margin-top: 20px;
 }
 
 .traditional-item-price {
-    color: #FFF;
     font-size: 24px;
     font-weight: 200;
 }
 
+.pie-price {
+    padding-top: 22px;
+}
+
+.croisan-cookie-prise {
+    padding-top: 51px;
+}
+
 .traditional-item-text {
-    color: #FFF;
-    font-size: 16px;
     font-weight: 500;
+    padding-top: 13px;
+}
+
+.croisan {
+    font-size: 14px;
+}
+
+.cookiepie {
+    font-size: 16px;
 }
 
 .traditional-item-button {
@@ -129,12 +149,13 @@ button {
     height: 34px;
     flex-shrink: 0;
     background: #C85312;
+    margin-top: 35px;
 }
 
 .traditional-button-text2 {
-    color: #FFF;
     font-size: 16px;
     font-weight: 900;
+    color: #FFF;
 }
 
 .section-menu {
@@ -145,7 +166,82 @@ button {
 }
 
 .menu-title {
-    color: #FFF;
     font-size: 64px;
     font-weight: 100;
+    padding-top: 21px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 328px;
+    height: 229px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    margin-right: 198px;
+    margin-bottom: 57px;
+}
+
+.menu-item-img {
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.bread-img {
+    background-image: url(img/breadorder.png);
+    width: 294px;
+    height: 184.39px;
+}
+
+.bekary-img {
+    background-image: url(img/bakeryorder1.png), url(img/bakeryorder2.png), url(img/bakeryorder3.png);
+    /* background-size: 249px, 328px, 165px; */
+    background-size: 185px, 229px, 128px;
+}
+
+.cakes-img {
+    background-image: url(img/pie2.png), url(img/cupcake.png);
+    background-size: 260px, 116.687px;
+}
+
+.cookies-img {
+    background-image: url(img/choccookies.png), url(img/pretzels.png);
+    background-size: 216px, 160px;
+}
+
+.menu-item-text {
+    flex-shrink: 0;
+    font-size: 25.92px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.menu-item-button {
+    width: 160px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: #B47B48;
+    color: #FFF;
+    font-size: 25.92px;
+    font-weight: 800;
+}
+
+.section-quality {
+    width: 1448px;
+    height: 852px;
+    flex-shrink: 0;
+    opacity: 0.5;
+    background: #202023;
+}
+
+.quality-title {
+    font-family: Italiana;
+    font-size: 64px;
+    font-weight: 400;
 }
