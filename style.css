@@ -287,13 +287,17 @@ button {
     flex-shrink: 0;
     background: #202023;
     padding-left: 172px;
+    background-image: url(img/bgquality.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .quality-title {
     font-family: Italiana;
     font-size: 64px;
     font-weight: 400;
-    padding-top: 168px;
+    padding-top: 145px;
     padding-left: 429px;
 }
 
@@ -302,10 +306,21 @@ button {
 }
 
 .quality-item {
-    width: 291.475px;
     height: 197.532px;
     flex-shrink: 0;
     margin-right: 42px;
+}
+
+.bread-list {
+    padding-right: 35px;
+}
+
+.cookies-list {
+    padding-right: 90px;
+    padding-top: 84px;
+}
+.pie-list {
+    padding-top: 123px;
 }
 
 .quality-itemlist-text {
@@ -317,7 +332,6 @@ button {
     background: rgba(242, 242, 242, 0.30);
     backdrop-filter: blur(18px);
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .section-why {
