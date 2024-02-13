@@ -37,18 +37,41 @@
                     scrambled it to make a type specimen book. It has survived not only five centuries, but also the
                     leap
                     into electronic typesetting, remaining essentially unchanged.</p>
-                <button class="traditional-button">
-                    <p class="traditional-button-text">SHOP NOW</p>
-                </button>
+                <button class="traditional-button" id="myButton">SHOP NOW</button>
+                <div id="myPopup" class="popup">
+                    <div class="popup-content">
+                        <div>
+                            <h1 class="popup-title">TRADITIONAL ARTISAX BAKERY</h1>
+                            <form class="popup-form">
+                                <input class="popup-input adress-input" type="text" id="adress" name="adress" value="Your adress"><br>
+                                <input class="popup-input card-input" type="text" id="card" name="card" value="Your card">
+                            </form>
+                            <button class="traditional-button popup-button" id="closePopup">SHOP NOW</button>
+                        </div>
+                        <img class="popup-img" src="img/popup-bread.png" alt="bread">
+                    </div>
+                </div>
+
+                <script>
+                    myButton.addEventListener("click", function () {
+                        myPopup.classList.add("show");
+                    });
+                    closePopup.addEventListener("click", function () {
+                        myPopup.classList.remove("show");
+                    });
+                    window.addEventListener("click", function (event) {
+                        if (event.target == myPopup) {
+                            myPopup.classList.remove("show");
+                        }
+                    });
+                </script>
                 <ul class="traditional-list">
                     <li class="traditional-item">
                         <div class="traditional-item-img img-cookie"></div>
                         <div class="traditional-item-both">
                             <h5 class="traditional-item-price croisan-cookie-prise">$8.00(kg)</h5>
                             <p class="traditional-item-text cookiepie">Amercan Cockie</p>
-                            <button class="traditional-item-button">
-                                <p class="traditional-button-text2">BUY</p>
-                            </button>
+                            <button class="traditional-item-button">BUY</button>
                         </div>
                     </li>
                     <li class="traditional-item">
@@ -56,9 +79,7 @@
                         <div class="traditional-item-both">
                             <h5 class="traditional-item-price croisan-cookie-prise">$4.00</h5>
                             <p class="traditional-item-text croisan">Crushed with chockolate</p>
-                            <button class="traditional-item-button">
-                                <p class="traditional-button-text2">BUY</p>
-                            </button>
+                            <button class="traditional-item-button">BUY</button>
                         </div>
                     </li>
                     <li class="traditional-item">
@@ -66,9 +87,7 @@
                         <div class="traditional-item-both">
                             <h5 class="traditional-item-price pie-price">For piece $4.00</h5>
                             <p class="traditional-item-text cookiepie">Blackberry pie</p>
-                            <button class="traditional-item-button">
-                                <p class="traditional-button-text2">BUY</p>
-                            </button>
+                            <button class="traditional-item-button">BUY</button>
                         </div>
                     </li>
                 </ul>
@@ -78,23 +97,28 @@
         <h2 class="menu-title">Menu</h2>
         <ul class="menu-list">
             <li class="menu-item">
-                <img class="menu-item-img bread-img" src="img/breadorder.png" alt="bread">
-                <p class="menu-item-text">Breads</p>
+                <div class="menu-box"><img class="menu-item-img bread-img" src="img/breadorder.png" alt="bread">
+                    <p class="menu-item-text">Breads</p>
+                </div>
                 <button class="menu-item-button">Order</button>
             </li>
             <li class="menu-item">
-                <img class="menu-item-img bakery-img" src="img/bakery.png" alt="bekary">
-                <p class="menu-item-text">Bakery</p>
+                <div class="menu-box"><img class="menu-item-img bakery-img" src="img/bakery.png" alt="bekary">
+                    <p class="menu-item-text">Bakery</p>
+                </div>
                 <button class="menu-item-button">Order</button>
             </li>
             <li class="menu-item">
-                <img class="menu-item-img cakes-img" src="img/cakes+cupcakes.png" alt="cakes">
-                <p class="menu-item-text">Cakes & Capcakes</p>
+                <div class="menu-box"><img class="menu-item-img cakes-img" src="img/cakes+cupcakes.png" alt="cakes">
+                    <p class="menu-item-text">Cakes & Capcakes</p>
+                </div>
                 <button class="menu-item-button">Order</button>
             </li>
             <li class="menu-item">
-                <img class="menu-item-img cookies-img" src="img/cookies+pretzels.png" alt="cookies">
-                <p class="menu-item-text">Coockies & Pretzels</p>
+                <div class="menu-box"> <img class="menu-item-img cookies-img" src="img/cookies+pretzels.png"
+                        alt="cookies">
+                    <p class="menu-item-text">Coockies & Pretzels</p>
+                </div>
                 <button class="menu-item-button">Order</button>
             </li>
         </ul>
@@ -135,17 +159,17 @@
     <section class="section-why container">
         <h2 class="why-title">Why TRADITIONAL ARTISAX BAKERY?</h2>
         <ul class="why-list">
-            <li class="why-item">
-                <div class="orderathome-img"></div>
+            <li class="why-item order-item">
+                <img class="why-img order-img" src="img/frame3.svg" alt="order">
                 <p class="why-item-text">Order at home</p>
             </li>
-            <li class="why-item">
-                <div class="freshfood-img"></div>
+            <li class="why-item other-item">
+                <img class="why-img food-img" src="img/frame1.svg" alt="food">
                 <p class="why-item-text">Fresh food</p>
             </li>
-            <li class="why-item">
-                <div class="delivery-img"></div>
-                <p class="why-item-text">Speed Delivery 24 hr</p>
+            <li class="why-item other-item">
+                <img class="why-img delivery-img" src="img/frame4.svg" alt="house">
+                <p class="why-item-text">Speed Delivery 24 h</p>
             </li>
         </ul>
     </section>
