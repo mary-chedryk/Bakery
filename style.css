@@ -20,9 +20,7 @@ button {
 }
 
 .container {
-    width: 1431px;
-    padding-left: 160px;
-    padding-right: 160px;
+    width: 1031px;
     margin: 0 auto;
 }
 
@@ -112,18 +110,19 @@ button {
     padding-left: 16px;
     padding: 21px 22px;
     width: 412px;
-    height: 72px;
     margin-left: 83px;
     margin-right: 20px;
 }
 
-.adress-input {
-    padding-right: 259px;
-    margin-bottom: 71px;
+.popup-input:active,
+.popup-input:hover,
+.popup-input:focus {
+    outline: 0;
+    outline-offset: 0;
 }
 
-.card-input {
-    padding-right: 253px;
+.adress-input {
+    margin-bottom: 71px;
 }
 
 .popup-content button {
@@ -223,7 +222,6 @@ button {
 
 .section-menu {
     width: 1440px;
-    height: 775px;
     background: #202023;
     display: flex;
     justify-content: center;
@@ -241,16 +239,16 @@ button {
 .menu-list {
     display: flex;
     flex-wrap: wrap;
-
+    row-gap: 57px;
+    width: 854px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .menu-box {
-
     width: 350px;
-    height: 250px;
     border: 1px solid #FFF;
-    margin-right: 198px;
-    margin-bottom: 57px;
+    margin-bottom: 10px;
 }
 
 .menu-item-img {
@@ -258,27 +256,7 @@ button {
 }
 
 .bread-img {
-    width: 294px;
-    height: 184.39px;
-    padding-top: 14px;
-    padding-left: 20px;
-
-}
-
-.bakery-img {
-    width: 357px;
-    height: 271px;
-
-}
-
-.cakes-img {
-    width: 261.566px;
-    height: 260px;
-}
-
-.cookies-img {
-    width: 226px;
-    height: 230px;
+    padding: 35px 17px 30px 17px;
 }
 
 .menu-item-text {
@@ -286,6 +264,7 @@ button {
     font-size: 25.92px;
     font-weight: 800;
     text-align: center;
+    padding-bottom: 13px;
 }
 
 .menu-item-button {
@@ -297,11 +276,17 @@ button {
     font-weight: 800;
 }
 
+.button-wrap-menu {
+    display: flex;
+    justify-content: center;
+}
+
 .section-quality {
     width: 1448px;
     height: 852px;
     flex-shrink: 0;
     background: #202023;
+    padding-left: 172px;
 }
 
 .quality-title {
@@ -320,9 +305,6 @@ button {
     width: 291.475px;
     height: 197.532px;
     flex-shrink: 0;
-    background: rgba(242, 242, 242, 0.30);
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(18px);
     margin-right: 42px;
 }
 
@@ -331,6 +313,11 @@ button {
     font-weight: 500;
     padding-left: 35px;
     padding-top: 32px;
+    padding-bottom: 50px;
+    background: rgba(242, 242, 242, 0.30);
+    backdrop-filter: blur(18px);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 .section-why {
@@ -340,6 +327,7 @@ button {
     flex-shrink: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 160px;
 }
 
 .why-title {
@@ -372,6 +360,7 @@ button {
     height: 704px;
     flex-shrink: 0;
     background: #202023;
+    padding-left: 160px;
 }
 
 .where-title {
@@ -424,6 +413,7 @@ button {
     height: 351px;
     flex-shrink: 0;
     background: #202023;
+    padding-left: 160px;
 }
 
 .footer-title {
