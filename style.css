@@ -46,6 +46,8 @@ button {
     background-image: url(img/section1background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 .traditional-title {
@@ -235,7 +237,7 @@ button {
 }
 
 .section-menu {
-    width: 1440px;
+    /* width: 1440px; */
     background: #202023;
     display: flex;
     justify-content: center;
@@ -566,4 +568,105 @@ button {
 .order-button {
     margin-left: 70px;
     margin-bottom: 20px;
+}
+
+/* Reviews */
+
+.reviews_list {
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.reviews-item {
+    padding: 50px 14px 30px 14px;
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #e5ae5c 0%, #c59853 26.04%, #B47B48 62.84%, #3e3f2b 100%);
+    box-shadow: 0px 30px 0px -13px #c59853, 0px 14px 0px -5px #dba049;
+}
+
+.reviews_text {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.reviews-date {
+    color: #dfd7d7;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 47px;
+}
+
+.reviews-name {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.leavereview-section {
+    background-color: #202023;
+}
+.leavereview-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+    width: 800px;
+    padding-top: 50px;
+    margin-top: 94px;
+    margin-left: 130px;
+    margin-right: 50px;
+}
+
+.leavereview-subtitle {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    width: 800px;
+    margin-left: 130px;
+    margin-bottom: 40px;
+}
+.leavereview-form {
+    margin-left: 230px;
+}
+.leavereview-input {
+    color: #000;
+    background: #F5F5F5;
+    border: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 200;
+    padding-left: 16px;
+    padding: 21px 22px;
+    width: 412px;
+    margin-left: 83px;
+    margin-right: 20px;
+}
+
+.leavereview-input:active,
+.leavereview-input:hover,
+.leavereview-input:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.leavereview-adress-input {
+    margin-bottom: 71px;
+}
+
+.leavereview-content button {
+    display: block;
+}
+
+.leavereview-button {
+    margin-left: 410px;
+}
+
+.show {
+    display: block;
 }
