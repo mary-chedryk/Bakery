@@ -26,181 +26,171 @@
                 <li><a class="header-item" href="reviews.html">Reviews</a></li>
             </ul>
         </header>
-        <main>
-            <section class="section-traditional container">
-                <h1 class="traditional-title">TRADITIONAL ARTISAX BAKERY</h1>
-                <p class="traditional-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem
-                    Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and
-                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap
-                    into electronic typesetting, remaining essentially unchanged.</p>
-                <button class="traditional-button" id="myButton">SHOP NOW</button>
-                <div id="myPopup" class="popup">
-                    <div class="popup-content">
-                        <div>
-                            <h1 class="popup-title">TRADITIONAL ARTISAX BAKERY</h1>
-                            <form class="popup-form">
-                                <input class="popup-input adress-input" type="text" id="adress" name="adress"
-                                    placeholder="Your adress"><br>
-                                <input class="popup-input" type="text" id="card" name="card" placeholder="Your card">
-                            </form>
-                            <button class="traditional-button popup-button" id="closePopup">SHOP NOW</button>
-                        </div>
-                        <img class="popup-img" src="img/popup-bread.png" alt="bread">
-                    </div>
-                </div>
 
-                <script>
-                    myButton.addEventListener("click", function () {
-                        myPopup.classList.add("show");
-                    });
-                    closePopup.addEventListener("click", function () {
-                        myPopup.classList.remove("show");
-                    });
-                    window.addEventListener("click", function (event) {
-                        if (event.target == myPopup) {
-                            myPopup.classList.remove("show");
-                        }
-                    });
-                </script>
-                <ul class="traditional-list">
-                    <li class="traditional-item">
-                        <div class="traditional-item-img img-cookie"></div>
-                        <div class="traditional-item-both">
-                            <h5 class="traditional-item-price croisan-cookie-prise">$8.00(kg)</h5>
-                            <p class="traditional-item-text cookiepie">Amercan Cockie</p>
-                            <button class="traditional-item-button">BUY</button>
-                        </div>
-                    </li>
-                    <li class="traditional-item">
-                        <div class="traditional-item-img img-croisan"></div>
-                        <div class="traditional-item-both">
-                            <h5 class="traditional-item-price croisan-cookie-prise">$4.00</h5>
-                            <p class="traditional-item-text croisan">Crushed with chockolate</p>
-                            <button class="traditional-item-button">BUY</button>
-                        </div>
-                    </li>
-                    <li class="traditional-item">
-                        <div class="traditional-item-img img-pie"></div>
-                        <div class="traditional-item-both">
-                            <h5 class="traditional-item-price pie-price">For piece $4.00</h5>
-                            <p class="traditional-item-text cookiepie">Blackberry pie</p>
-                            <button class="traditional-item-button">BUY</button>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-    </div>
-    <section class="section-menu container">
-        <div class="container">
-            <h2 class="menu-title">Menu</h2>
-            <ul class="menu-list">
-                <li class="menu-item">
-                    <div class="menu-box"><img class="menu-item-img bread-img" src="img/breadorder.png" alt="bread"
-                            width="357" height="271">
-                        <p class="menu-item-text">Breads</p>
+        <section class="section-traditional container">
+            <h1 class="traditional-title">TRADITIONAL ARTISAX BAKERY</h1>
+            <p class="traditional-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem
+                Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap
+                into electronic typesetting, remaining essentially unchanged.</p>
+            <button class="traditional-button" id="myButton">SHOP NOW</button>
+            <div id="myPopup" class="popup">
+                <div class="popup-content">
+                    <div>
+                        <h1 class="popup-title">TRADITIONAL ARTISAX BAKERY</h1>
+                        <form class="popup-form">
+                            <input class="popup-input adress-input" type="text" id="adress" name="adress"
+                                placeholder="Your adress"><br>
+                            <input class="popup-input" type="text" id="card" name="card" placeholder="Your card">
+                        </form>
+                        <button class="traditional-button popup-button" id="closePopup">SHOP NOW</button>
                     </div>
-                    <div class="button-wrap-menu"> <button class="menu-item-button">Order</button> </div>
+                    <img class="popup-img" src="img/popup-bread.png" alt="bread">
+                </div>
+            </div>
+
+            <ul class="traditional-list">
+                <li class="traditional-item">
+                    <div class="traditional-item-img img-cookie"></div>
+                    <div class="traditional-item-both">
+                        <h5 class="traditional-item-price croisan-cookie-prise">$8.00(kg)</h5>
+                        <p class="traditional-item-text cookiepie">Amercan Cockie</p>
+                        <button class="traditional-item-button">BUY</button>
+                    </div>
                 </li>
-                <li class="menu-item">
-                    <div class="menu-box"><img class="menu-item-img bakery-img" src="img/bakery.png" alt="bekary"
-                            width="357" height="271">
-                        <p class="menu-item-text">Bakery</p>
+                <li class="traditional-item">
+                    <div class="traditional-item-img img-croisan"></div>
+                    <div class="traditional-item-both">
+                        <h5 class="traditional-item-price croisan-cookie-prise">$4.00</h5>
+                        <p class="traditional-item-text croisan">Crushed with chockolate</p>
+                        <button class="traditional-item-button">BUY</button>
                     </div>
-                    <div class="button-wrap-menu"> <button class="menu-item-button">Order</button></div>
                 </li>
-                <li class="menu-item">
-                    <div class="menu-box"><img class="menu-item-img cakes-img" src="img/cakes+cupcakes.png" alt="cakes"
-                            width="357" height="271">
-                        <p class="menu-item-text">Cakes & Capcakes</p>
+                <li class="traditional-item">
+                    <div class="traditional-item-img img-pie"></div>
+                    <div class="traditional-item-both">
+                        <h5 class="traditional-item-price pie-price">For piece $4.00</h5>
+                        <p class="traditional-item-text cookiepie">Blackberry pie</p>
+                        <button class="traditional-item-button">BUY</button>
                     </div>
-                    <div class="button-wrap-menu"> <button class="menu-item-button">Order</button> </div>
-                </li>
-                <li class="menu-item">
-                    <div class="menu-box"> <img class="menu-item-img cookies-img" src="img/cookies+pretzels.png"
-                            width="357" height="271" alt="cookies">
-                        <p class="menu-item-text">Coockies & Pretzels</p>
-                    </div>
-                    <div class="button-wrap-menu"> <button class="menu-item-button">Order</button> </div>
                 </li>
             </ul>
-        </div>
-    </section>
-    <section class="section-quality container">
-        <h2 class="quality-title">Quality our bakery</h2>
-        <ul class="quality-list">
-            <li class="quality-item bread-list">
-                <img src="img/breadorder.png" alt="bread">
-                <p class="quality-item-text">
-                <ol class="quality-itemlist-text">
-                    <li>Flour with fresh wheat</li>
-                    <li>New drozzhi</li>
-                    <li>Fresh eggs</li>
-                    <li>Water from the well</li>
-                </ol>
-            </li>
-            <li class="quality-item cookies-list">
-                <img src="img/choccookies.png" alt="cookies">
-                <ol class="quality-itemlist-text">
-                    <li>Flour with fresh wheat</li>
-                    <li>New drozzhi</li>
-                    <li>Fresh eggs</li>
-                    <li>Water from the well</li>
-                </ol>
-            </li>
-            <li class="quality-item pie-list">
-                <img src="img/pie2.png" alt="pie">
-                <ol class="quality-itemlist-text">
-                    <li>Flour with fresh wheat</li>
-                    <li>New drozzhi</li>
-                    <li>Fresh eggs</li>
-                    <li>Water from the well</li>
-                </ol>
-            </li>
-        </ul>
-    </section>
-    <section class="section-why container">
-        <h2 class="why-title">Why TRADITIONAL ARTISAX BAKERY?</h2>
-        <ul class="why-list">
-            <li class="why-item order-item">
-                <img class="why-img order-img" src="img/frame3.svg" alt="order">
-                <p class="why-item-text">Order at home</p>
-            </li>
-            <li class="why-item other-item">
-                <img class="why-img food-img" src="img/frame1.svg" alt="food">
-                <p class="why-item-text">Fresh food</p>
-            </li>
-            <li class="why-item other-item">
-                <img class="why-img delivery-img" src="img/frame4.svg" alt="house">
-                <p class="why-item-text">Speed Delivery 24 h</p>
-            </li>
-        </ul>
-    </section>
-    <section class="section-where container">
-        <h2 class="where-title">Where</h2>
-        <div class="where-box"><img class="map-img" src="img/map.jpg" alt="map">
-            <div class="where-inbox">
-                <h4 class="where-sub how">How</h4>
-                <a class="links where-link" id="contacts" href="tel:+380551231312">+38 055 123 13 12</a>
-                <ul class="where-list">
-                    <li class="where-item"><a class="links where-item-link" href="https://www.tiktok.com/"
-                            target="_blank">Tik tok.:@TR.Bekary</a></li>
-                    <li class="where-item"><a class="links where-item-link" href="https://www.instagram.com/"
-                            target="_blank">Inst:@TR.Bekary</a></li>
+        </section>
+    </div>
+    <main>
+        <section class="section-menu ">
+            <div class="container">
+                <h2 class="menu-title">Menu</h2>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <div class="menu-box"><img class="menu-item-img bread-img" src="img/breadorder.png" alt="bread"
+                                width="357" height="271">
+                            <p class="menu-item-text">Breads</p>
+                        </div>
+                        <div class="button-wrap-menu"> <button class="menu-item-button">Order</button> </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-box"><img class="menu-item-img bakery-img" src="img/bakery.png" alt="bekary"
+                                width="357" height="271">
+                            <p class="menu-item-text">Bakery</p>
+                        </div>
+                        <div class="button-wrap-menu"> <button class="menu-item-button">Order</button></div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-box"><img class="menu-item-img cakes-img" src="img/cakes+cupcakes.png"
+                                alt="cakes" width="357" height="271">
+                            <p class="menu-item-text">Cakes & Capcakes</p>
+                        </div>
+                        <div class="button-wrap-menu"> <button class="menu-item-button">Order</button> </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-box"> <img class="menu-item-img cookies-img" src="img/cookies+pretzels.png"
+                                width="357" height="271" alt="cookies">
+                            <p class="menu-item-text">Coockies & Pretzels</p>
+                        </div>
+                        <div class="button-wrap-menu"> <button class="menu-item-button">Order</button> </div>
+                    </li>
                 </ul>
             </div>
-            <div class="where-inbox">
-                <h4 class="where-sub when">When</h4>
-                <p class="where-time">with 8:30 to 20:30</p>
+        </section>
+        <section class="section-quality">
+            <div class="container">
+                <h2 class="quality-title">Quality our bakery</h2>
+                <ul class="quality-list">
+                    <li class="quality-item bread-list">
+                        <img src="img/breadorder.png" alt="bread">
+                        <p class="quality-item-text">
+                        <ol class="quality-itemlist-text">
+                            <li>Flour with fresh wheat</li>
+                            <li>New drozzhi</li>
+                            <li>Fresh eggs</li>
+                            <li>Water from the well</li>
+                        </ol>
+                    </li>
+                    <li class="quality-item cookies-list">
+                        <img src="img/choccookies.png" alt="cookies">
+                        <ol class="quality-itemlist-text">
+                            <li>Flour with fresh wheat</li>
+                            <li>New drozzhi</li>
+                            <li>Fresh eggs</li>
+                            <li>Water from the well</li>
+                        </ol>
+                    </li>
+                    <li class="quality-item pie-list">
+                        <img src="img/pie2.png" alt="pie">
+                        <ol class="quality-itemlist-text">
+                            <li>Flour with fresh wheat</li>
+                            <li>New drozzhi</li>
+                            <li>Fresh eggs</li>
+                            <li>Water from the well</li>
+                        </ol>
+                    </li>
+                </ul>
+        </section>
+        <section class="section-why">
+           <div class="container"> <h2 class="why-title">Why TRADITIONAL ARTISAX BAKERY?</h2>
+            <ul class="why-list">
+                <li class="why-item order-item">
+                    <img class="why-img order-img" src="img/frame3.svg" alt="order">
+                    <p class="why-item-text">Order at home</p>
+                </li>
+                <li class="why-item other-item">
+                    <img class="why-img food-img" src="img/frame1.svg" alt="food">
+                    <p class="why-item-text">Fresh food</p>
+                </li>
+                <li class="why-item other-item">
+                    <img class="why-img delivery-img" src="img/frame4.svg" alt="house">
+                    <p class="why-item-text">Speed Delivery 24 h</p>
+                </li>
+            </ul>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="section-where">
+           <div class="container"> <h2 class="where-title">Where</h2>
+            <div class="where-box"><img class="map-img" src="img/map.jpg" alt="map">
+                <div class="where-inbox">
+                    <h4 class="where-sub how">How</h4>
+                    <a class="links where-link" id="contacts" href="tel:+380551231312">+38 055 123 13</a>
+                    <ul class="where-list">
+                        <li class="where-item"><a class="links where-item-link" href="https://www.tiktok.com/"
+                                target="_blank">Tik tok.:@TR.</a></li>
+                        <li class="where-item"><a class="links where-item-link" href="https://www.instagram.com/"
+                                target="_blank">Inst:@TR.Bekary</a></li>
+                    </ul>
+                </div>
+                <div class="where-inbox">
+                    <h4 class="where-sub when">When</h4>
+                    <p class="where-time">with 8:30 to 20:30</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="footer container">
-        <div class="footer-box">
+    <footer class="footer ">
+        <div class="footer-box container">
             <div>
                 <h2 class="footer-title">TRADITIONAL
                     ARTISAX BAKERY</h2>
@@ -225,6 +215,19 @@
             </ul>
         </div>
     </footer>
+    <script>
+        myButton.addEventListener("click", function () {
+            myPopup.classList.add("show");
+        });
+        closePopup.addEventListener("click", function () {
+            myPopup.classList.remove("show");
+        });
+        window.addEventListener("click", function (event) {
+            if (event.target == myPopup) {
+                myPopup.classList.remove("show");
+            }
+        });
+    </script>
 </body>
 
 </html>

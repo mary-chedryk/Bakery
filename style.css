@@ -46,8 +46,6 @@ button {
     background-image: url(img/section1background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1800px;
-    margin: 0 auto;
 }
 
 .traditional-title {
@@ -237,7 +235,6 @@ button {
 }
 
 .section-menu {
-    /* width: 1440px; */
     background: #202023;
     display: flex;
     justify-content: center;
@@ -302,14 +299,13 @@ button {
 }
 
 .section-quality {
-    width: 1448px;
     height: 852px;
-    flex-shrink: 0;
     background: #202023;
     padding-left: 172px;
     background-image: url(img/bgquality.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -357,12 +353,12 @@ button {
 
 .section-why {
     background-image: linear-gradient(90deg, #000 8.49%, rgba(3, 3, 3, 0.00) 77.17%), url(img/whybackground.jpg);
-    width: 1448px;
-    height: 580px;
-    flex-shrink: 0;
+    /* height: 580px; */
+    background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 121px;
+    padding-top: 55px;
     background-size: cover;
-    padding-left: 160px;
 }
 
 .why-title {
@@ -391,11 +387,9 @@ button {
 }
 
 .section-where {
-    width: 1451px;
-    height: 704px;
-    flex-shrink: 0;
     background: #202023;
-    padding-left: 160px;
+    padding-bottom: 50px;
+    padding-top: 66px;
 }
 
 .where-title {
@@ -423,6 +417,10 @@ button {
     font-weight: 300;
 }
 
+.links:hover {
+    color: #B47B48; 
+}
+
 .where-time {
     text-align: center;
     font-size: 24px;
@@ -444,11 +442,8 @@ button {
 }
 
 .footer {
-    width: 1500px;
     height: 351px;
-    flex-shrink: 0;
     background: #202023;
-    padding-left: 160px;
 }
 
 .footer-title {
@@ -497,9 +492,7 @@ button {
 /* Menu page styles */
 
 .menu-body {
-    background-image: linear-gradient(to bottom,
-            #EBAD51,
-            #202023);
+    background: linear-gradient(230deg, rgba(186, 169, 56, 1) 0%, rgba(176, 162, 74, 1) 4%, rgba(193, 164, 42, 1) 17%, rgba(177, 141, 36, 1) 40%, rgba(187, 152, 66, 1) 64%, rgba(116, 106, 83, 1) 80%);
 }
 
 .menucard-list {
@@ -607,9 +600,11 @@ button {
     font-size: 14px;
     font-weight: 400;
 }
+
 .leavereview-section {
     background-color: #202023;
 }
+
 .leavereview-title {
     color: #fff;
     font-size: 48px;
@@ -631,9 +626,11 @@ button {
     margin-left: 130px;
     margin-bottom: 40px;
 }
+
 .leavereview-form {
     margin-left: 230px;
 }
+
 .leavereview-input {
     color: #000;
     background: #F5F5F5;
